@@ -31,5 +31,5 @@ void quick_sort(int *array, size_t size);
 void quicksort_recursive(int *array, int low, int high, size_t size);
 
 int lomuto_partition(int *array, size_t size, int left, int right);
-
+void shell_sort(int *array, size_t size);
 #endif
